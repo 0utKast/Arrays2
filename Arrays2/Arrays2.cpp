@@ -109,14 +109,14 @@ int main() {
 }*/
 
 
-/*//VT 76  COD.007
+/*//VT 75  COD.007
 
 int array[5]{ 0, 1, 2, 3, 4 }; // explícitamente definimos el tamaño del array
 int array[]{ 0, 1, 2, 3, 4 }; // el compilar determina implícitamente el tamaño*/
 
 
 
-/*//VT 76  COD.008
+/*//VT 75  COD.008
 int main()
 {
     constexpr int numeroEstudiantes{ 5 };
@@ -125,7 +125,7 @@ int main()
 }*/
 
 
-/*//VT 76    COD.009
+/*//VT 75    COD.009
 
 enum NombreEstudiantes
 {
@@ -146,7 +146,7 @@ int main()
 }*/
 
 
-/*//VT 76    COD.010
+/*//VT 75    COD.010
 
 enum NombreEstudiantes
 {
@@ -167,7 +167,7 @@ int main()
     return 0;
 }*/
 
-/*// VT 76   COD. 011
+/*// VT 75   COD. 011
 #include <iostream>
 void pasarValor(int valor) // valor es una copia del argumento
 {
@@ -203,7 +203,7 @@ int main()
 
 
 
-/// VT 76   COD. 012
+/// VT 75   COD. 012
 // primo es el array real, pero dentra de esta función es constante y no puede cambiarse
 void pasarArray(const int primo[5])
 {
